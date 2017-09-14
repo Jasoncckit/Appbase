@@ -1,8 +1,27 @@
 {
-  "name": "coinbase",
+  "name": "appbase",
   "version": "1.0.0",
   "description": "A full-featured PWA template with framework7, webpack, hot-reload, lint-on-save, unit testing & css extraction.",
   "author": "Jason Cheng <Jasoncckit@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jasoncckit/appbase.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasoncckit/appbase.git"
+  },
+  "keywords": [
+    "ios",
+    "browserify",
+    "framework7",
+    "f7",
+    "vue",
+    "vues",
+    "material",
+    "mobile",
+    "app"
+  ],
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -15,7 +34,8 @@
   },
   "dependencies": {
     "vue": "^2.3.3",
-    "vue-router": "^2.3.1"
+    "framework7": "^1.6.4",
+    "framework7-vue": "^0.9.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -44,6 +64,7 @@
     "extract-text-webpack-plugin": "^2.0.0",
     "file-loader": "^0.11.1",
     "friendly-errors-webpack-plugin": "^1.1.3",
+    "function-bind": "^1.1.0",
     "html-webpack-plugin": "^2.28.0",
     "http-proxy-middleware": "^0.17.3",
     "webpack-bundle-analyzer": "^2.2.1",
