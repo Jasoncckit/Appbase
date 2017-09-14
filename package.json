@@ -5,11 +5,11 @@
   "author": "Jason Cheng <Jasoncckit@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jasoncckit/appbase.git/issues"
+    "url": "https://github.com/Jasoncckit/Appbase.git/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jasoncckit/appbase.git"
+    "url": "git+https://github.com/Jasoncckit/Appbase.git"
   },
   "keywords": [
     "ios",
