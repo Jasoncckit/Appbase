@@ -6,6 +6,7 @@
 // Import Vue
 import Vue from 'vue'
 Vue.config.productionTip = false
+import axios from 'axios'
 
 // Import F7
 import Framework7 from 'framework7'
