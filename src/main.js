@@ -42,7 +42,12 @@ new Vue({
     root: '#app',
     /* Uncomment to enable Material theme: */
     material: true,
-    routes: Routes
+
+    routes: Routes,
+    // Any other parameters, e.g.
+    animateNavBackIcon: true,
+    swipePanel: 'left',
+    hideNavbarOnPageScroll: true
   },
   // Register App Component
   components: {
