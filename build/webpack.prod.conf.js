@@ -109,7 +109,7 @@ var webpackConfig = merge(baseWebpackConfig, {
       stripPrefix: 'dist/',
       runtimeCaching: [
         {
-          urlPattern: /^https:\/\/*/,
+          urlPattern: /^https:\/\/(.*)/,
           handler: 'cacheFirst'
         }
       ]
