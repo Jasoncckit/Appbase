@@ -34,8 +34,12 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
+    "font-awesome": "^4.7.0",
     "framework7": "^1.6.4",
+    "framework7-icons": "^0.8.9",
     "framework7-vue": "^0.9.4",
+    "ionicons": "^3.0.0",
+    "material-design-icons": "^3.0.1",
     "vue": "^2.5.9"
   },
   "devDependencies": {
