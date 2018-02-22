@@ -409,11 +409,11 @@ axios@^0.15.3:
   dependencies:
     follow-redirects "1.0.0"
 
-axios@^0.17.1:
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.17.1.tgz#2d8e3e5d0bdbd7327f91bc814f5c57660f81824d"
+axios@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
   dependencies:
-    follow-redirects "^1.2.5"
+    follow-redirects "^1.3.0"
     is-buffer "^1.1.5"
 
 babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
@@ -2074,7 +2074,7 @@ de-indent@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
 
-debug@2, debug@2.6.9, debug@^2.2.0, debug@^2.6.8, debug@^2.6.9, debug@~2.6.4, debug@~2.6.6, debug@~2.6.9:
+debug@2, debug@2.6.9, debug@^2.2.0, debug@^2.6.8, debug@~2.6.4, debug@~2.6.6, debug@~2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   dependencies:
@@ -2271,6 +2271,12 @@ dom-urls@^1.1.0:
   resolved "https://registry.yarnpkg.com/dom-urls/-/dom-urls-1.1.0.tgz#001ddf81628cd1e706125c7176f53ccec55d918e"
   dependencies:
     urijs "^1.16.1"
+
+dom7@^2.0.2:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/dom7/-/dom7-2.0.3.tgz#610c530d32ebd9690d3959b19a0f379584f24fc4"
+  dependencies:
+    ssr-window "^1.0.0"
 
 domain-browser@^1.1.1, domain-browser@~1.1.0:
   version "1.1.7"
@@ -3042,11 +3048,11 @@ follow-redirects@1.0.0:
   dependencies:
     debug "^2.2.0"
 
-follow-redirects@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.2.5.tgz#ffd3e14cbdd5eaa72f61b6368c1f68516c2a26cc"
+follow-redirects@^1.3.0:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.4.1.tgz#d8120f4518190f55aac65bb6fc7b85fcd666d6aa"
   dependencies:
-    debug "^2.6.9"
+    debug "^3.1.0"
 
 font-awesome@^4.7.0:
   version "4.7.0"
@@ -3104,13 +3110,18 @@ framework7-icons@^0.8.9:
   version "0.8.9"
   resolved "https://registry.yarnpkg.com/framework7-icons/-/framework7-icons-0.8.9.tgz#af94a6051be659f3f7b9d873fba6040c8fe72769"
 
-framework7-vue@^0.9.4:
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/framework7-vue/-/framework7-vue-0.9.4.tgz#5916ab2f0d66250ca397df6faefa88c7d3a36e77"
+framework7-vue@^2.0.10:
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/framework7-vue/-/framework7-vue-2.0.10.tgz#0b94834e65a7e05be86ba4acc9ed5b09712f0a70"
 
-framework7@^1.6.4:
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/framework7/-/framework7-1.6.5.tgz#a35eacdb3f78d3013c972e5e8cc482f958ca592d"
+framework7@^2.0.10:
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/framework7/-/framework7-2.0.10.tgz#9f6613496d4239ed4087ef2a6ea63d546edc7c6a"
+  dependencies:
+    dom7 "^2.0.2"
+    path-to-regexp "^2.1.0"
+    ssr-window "^1.0.0"
+    template7 "^1.3.5"
 
 fresh@0.5.2:
   version "0.5.2"
@@ -5472,6 +5483,10 @@ path-to-regexp@^1.0.1, path-to-regexp@^1.7.0:
   dependencies:
     isarray "0.0.1"
 
+path-to-regexp@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-2.1.0.tgz#7e30f9f5b134bd6a28ffc2e3ef1e47075ac5259b"
+
 path-type@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-1.1.0.tgz#59c44f7ee491da704da415da5a4070ba4f8fe441"
@@ -6800,6 +6815,10 @@ sshpk@^1.7.0:
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
 
+ssr-window@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-1.0.0.tgz#8ed1b6beaa0a371ba7e74d6515d584c3f1cf973c"
+
 ssri@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/ssri/-/ssri-5.0.0.tgz#13c19390b606c821f2a10d02b351c1729b94d8cf"
@@ -7077,6 +7096,10 @@ tar@^2.2.1:
     block-stream "*"
     fstream "^1.0.2"
     inherits "2"
+
+template7@^1.3.5:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/template7/-/template7-1.3.5.tgz#8dac198b628313b0e53b22487e29d904e0455828"
 
 test-exclude@^4.1.1:
   version "4.1.1"
