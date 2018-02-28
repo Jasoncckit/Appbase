@@ -1,11 +1,11 @@
-import HomePage from './pages/home.vue'
-import AboutPage from './pages/about.vue'
+import HomePage from './pages/home'
+import AboutPage from './pages/about'
 import FormPage from './pages/form.vue'
-import DynamicRoutePage from './pages/dynamic-route.vue'
-import NotFoundPage from './pages/not-found.vue'
+import DynamicRoutePage from './pages/dynamic-route'
+import NotFoundPage from './pages/not-found'
 
-import PanelLeftPage from './pages/panel-left.vue'
-import PanelRightPage from './pages/panel-right.vue'
+import PanelLeftPage from './pages/panel-left'
+import PanelRightPage from './pages/panel-right'
 
 export default [
   {
