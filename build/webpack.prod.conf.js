@@ -104,17 +104,11 @@ const webpackConfig = merge(baseWebpackConfig, {
     ]),
     // service worker caching
     new SWPrecacheWebpackPlugin({
-      cacheId: 'Appbase',
+      cacheId: 'my-project',
       filename: 'service-worker.js',
       staticFileGlobs: ['dist/**/*.{js,html,css}'],
       minify: true,
-      stripPrefix: 'dist/',
-      runtimeCaching: [
-        {
-          urlPattern: /(.*).(js|css|png|jpe?g|gif|svg|mp4|webm|ogg|mp3|wav|flac|aac|woff2?|eot|ttf|otf)/,
-          handler: 'cacheFirst'
-        }
-      ]
+      stripPrefix: 'dist/'
     })
   ]
 })
