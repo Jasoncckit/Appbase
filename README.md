@@ -1,5 +1,5 @@
 # Appbase
-A full-featured PWA template with framework7, webpack, hot-reload, lint-on-save, unit testing &amp; css extraction.
+A full-featured PWA template with Framework7, Vue, Webpack, hot-reload, lint-on-save, unit testing & css extraction.
 
 ## Build Setup
 
@@ -42,5 +42,5 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 - [Vue.js](https://github.com/vuejs/vue)
 - [vue-pwa-boilerplate](https://github.com/vuejs-templates/pwa)
-- [Framework7](https://github.com/nolimits4web/Framework7).
+- [Framework7](https://github.com/nolimits4web/Framework7)
 - [Framework7-Vue](https://github.com/nolimits4web/Framework7-Vue)
