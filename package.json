@@ -35,12 +35,12 @@
   "dependencies": {
     "axios": "^0.18.0",
     "font-awesome": "^4.7.0",
-    "framework7": "^2.0.10",
+    "framework7": "^3.0.0",
     "framework7-icons": "^0.9.1",
-    "framework7-vue": "^2.0.10",
+    "framework7-vue": "^3.0.0",
     "ionicons": "^4.2.0",
     "material-design-icons": "^3.0.1",
-    "vue": "^2.5.9"
+    "vue": "^2.5.16"
   },
   "devDependencies": {
     "autoprefixer": "^8.6.2",
@@ -109,7 +109,7 @@
     "selenium-server": "^3.8.1",
     "semver": "^5.5.0",
     "shelljs": "^0.8.1",
-    "sinon": "^6.0.0",
+    "sinon": "^4.0.1",
     "sinon-chai": "^3.2.0",
     "sw-precache-webpack-plugin": "^0.11.4",
     "uglify-es": "^3.3.9",
@@ -117,7 +117,7 @@
     "url-loader": "^1.0.1",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.1.2",
-    "vue-template-compiler": "^2.5.2",
+    "vue-template-compiler": "^2.5.16",
     "webpack": "^3.10.0",
     "webpack-bundle-analyzer": "^2.9.2",
     "webpack-dev-middleware": "^2.0.4",
