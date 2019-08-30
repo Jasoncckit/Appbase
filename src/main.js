@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Framework7 from 'framework7/framework7.esm.bundle.js'
 import Framework7Vue from 'framework7-vue/framework7-vue.esm.bundle.js'
-import 'framework7/css/framework7.min.css'
+import 'framework7/css/framework7.bundle.css'
 import 'framework7-icons/css/framework7-icons.css'
 import App from './App.vue'
 import store from './store'
